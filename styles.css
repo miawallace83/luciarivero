@@ -689,3 +689,15 @@
     }
   
   }
+
+ #gracias {
+    color: #014A65;
+  }
+
+  #volver {
+    color: #014A65;
+  }
+
+  #volver:hover {
+    color: #FF6B6B;
+  }
