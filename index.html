@@ -189,13 +189,13 @@
           <div class="contactme-container__main__text">
             <span class="contactme-container__main__text__title">Enviame un mensaje!</span>
           </div>
-          <form action="mailto:lucia.rivero1983@gmail.com" method="POST" enctype="multipart/form-data" name="emailform" class="contactme-container__main__form">
+          <form action="mailto:lucia.rivero1983@gmail.com?subject=Contacto" method="GET" target="_blank" class="contactme-container__main__form">
             <div class="contactme-container__main__form__name">
-              <label for="name"><input id="name" type="text" placeholder="Nombre"></label>
-              <label for="email"><input id="email" type="email" placeholder="Email"></label>
+              <label for="name"><input id="name" type="text" name="name" placeholder="Nombre"></label>
+              <label for="email"><input id="email" type="email" name="mail" placeholder="Email"></label>
             </div>
-            <label class="contactme-container__main__form__comment" for="comment"><textarea id="comment" placeholder="Tu mensaje"></textarea></label>
-            <button type="submit" value="Submit">Enviar</button>
+            <label class="contactme-container__main__form__comment" for="comment"><textarea id="comment" name="comment" placeholder="Tu mensaje"></textarea></label>
+            <button type="submit" value="send">Enviar</button>
           </form>
         </div>
       </section>
@@ -207,7 +207,7 @@
           
           <a class="banner-container__main__social-media__red" href="https://www.instagram.com/mia.wallace83/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
         </div>
-      </footer>
+      </footer> 
     </div>
   </div>
 
