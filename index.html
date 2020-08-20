@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -189,10 +190,10 @@
           <div class="contactme-container__main__text">
             <span class="contactme-container__main__text__title">Enviame un mensaje!</span>
           </div>
-          <form action="mailto:lucia.rivero1983@gmail.com?subject=Contacto" method="GET" target="_blank" class="contactme-container__main__form">
+          <form action="mail.php" method="post" enctype="text/plain" class="contactme-container__main__form">
             <div class="contactme-container__main__form__name">
               <label for="name"><input id="name" type="text" name="name" placeholder="Nombre"></label>
-              <label for="email"><input id="email" type="email" name="mail" placeholder="Email"></label>
+              <label for="email"><input id="email" type="email" name="email" placeholder="Email"></label>
             </div>
             <label class="contactme-container__main__form__comment" for="comment"><textarea id="comment" name="comment" placeholder="Tu mensaje"></textarea></label>
             <button type="submit" value="send">Enviar</button>
