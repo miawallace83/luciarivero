@@ -190,12 +190,12 @@
           <div class="contactme-container__main__text">
             <span class="contactme-container__main__text__title">Enviame un mensaje!</span>
           </div>
-          <form action="mailto:lucia.rivero1983@gmail.com" method="post" enctype="text/plain" class="contactme-container__main__form">
+          <form action="send_mail.php" method="post" class="contactme-container__main__form">
             <div class="contactme-container__main__form__name">
-              <label for="name"><input id="name" type="text" placeholder="Nombre"></label>
-              <label for="email"><input id="email" type="email" placeholder="Email"></label>
+              <label><input id="name" type="text" name="first_name" required placeholder="Nombre"></label>
+              <label><input id="email" type="email" name="email_address" placeholder="Email"></label>
             </div>
-            <label class="contactme-container__main__form__comment" for="comment"><textarea id="comment" placeholder="Tu mensaje"></textarea></label>
+            <label class="contactme-container__main__form__comment"><textarea id="comment" name="comments" placeholder="Tu mensaje"></textarea></label>
             <button type="submit" value="send">Enviar</button>
           </form>
         </div>
