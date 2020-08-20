@@ -3,7 +3,7 @@
     --color-secondary: #FF6B6B;
     --color-terciary: #FFE66D;
     --color-white: #f7fff7;
-    --color-font: 343a40;
+    --color-font: #343A40;
     --color-blue: #014A65;
     --color-shadow: rgba(69, 67, 96, 0.1);
   }
@@ -29,10 +29,6 @@
     color: var(--color-white);
   }
 
-  a:hover {
-    text-decoration: underline;
-  }
-  
   button {
     color: var(--color-white);
     background-color: var(--color-secondary);
@@ -44,7 +40,7 @@
   }
   
   button:hover {
-    background-color: #6adcab;
+    background-color: #014A65;
   }
   
   button:focus,
@@ -146,8 +142,10 @@
   .background-image {
     height: 100%;
     width: 100%;
-    background-image: url("./images/fondo.svg");
     position: absolute;
+    background-size: cover;
+    opacity: 0.8;
+    background-color: #6adcab
   }
   
   .banner-container__main {
@@ -412,7 +410,7 @@
   
   .works-container__topics__card__mask {
     position: absolute;
-    background: #6adcab;
+    background: #55BF9D;
     width: 100%;
     height: 100%;
     top: 0;
@@ -421,9 +419,21 @@
     display: flex;
     padding: 50px 0px 0px 30px;
     box-sizing: border-box;
-    text-align: center;
     box-shadow: 0px 5px 20px 0px var(--color-shadow);
   }
+
+  .works-container__topics__card__mask a {
+    font-size: 25px;
+    margin: 0;
+    text-decoration: underline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    }
+
+
   
   .works-container__topics__card:hover > .works-container__topics__card__mask {
     opacity: 0.9;
@@ -506,7 +516,7 @@
   footer {
     width: 100%;
     height: 50px;
-    background-color: var(--color-primary);
+    background-color:#55BF9D;
     display: flex;
     align-items: center;
     padding: 0px 170px;
