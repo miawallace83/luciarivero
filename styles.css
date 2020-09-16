@@ -283,7 +283,7 @@
   
   .skils-container__main__card__progress__content:nth-child(3)
     .skils-container__main__card__progress__content__bar__incomplete {
-    width: 70%;
+    width: 75%;
     background-color: #f97b8b;
   }
   
