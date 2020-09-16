@@ -277,13 +277,13 @@
   
   .skils-container__main__card__progress__content:nth-child(2)
     .skils-container__main__card__progress__content__bar__incomplete {
-    width: 80%;
+    width: 90%;
     background-color: var(--color-terciary);
   }
   
   .skils-container__main__card__progress__content:nth-child(3)
     .skils-container__main__card__progress__content__bar__incomplete {
-    width: 30%;
+    width: 70%;
     background-color: #f97b8b;
   }
   
